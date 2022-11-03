@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+.header-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    box-sizing: border-box;
+    padding: 0 70px;    
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+header ul{
+    color:black;
+    list-style-type: none;
+    display: flex;
+ 
+}
+.header-nav li{
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.header-nav li:hover{
+    color: red;
+}
+
+.logo{
+     width: 163px;
+    height: 66px;
+    
+}
+.assuslogo{
+    display: flex;
+    width: 100px;
+    height: 26px;   
+    border-right: 1px solid gray;
+    cursor: pointer;
+}
+
+.assusimage
+{
+    width: 80px;
+    height: 25px;
+    filter: invert(50%);
+}
+.assusimage:hover{
+    filter: invert(75%)
+}
+.header-icons
+{
+    display: flex;
+    height: 26px;
+    filter: invert(75%);
+    gap: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.image{
+    width: 24px;
+}
+.second-header
+{
+    display:flex ;
+    width: 100%;
+    height: 40px;
+    background-color: #e30017;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second-header a{
+    font-size: 16px;
+    color: #ffff;
+    text-decoration: none;
+}
+.main-container1 img{
+    width: 100%;
+    height: 520px;
+}
+.main-container2
+{
+    width: 100%;
+    height: 400px;
+   
+}
+.container2-head h2{
+    text-align: center;
+    font-size: 36px;
+    color: #202020;
+    margin-top: 66px;
+}
+.productdetails ul{
+    display: flex;
+    gap: 90px;
+    margin-top: 55px;
+}
+.productdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productdetails li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productdetails img{
+    /* height: 240px; */
+    width: 185px;
+}
+.productdetails a{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #202020;
+}
+.productdetails a:hover{
+    color: red;
+}
+.main-container3{
+    background-image: url(assets/rog_bg_pattern.jpg);
+    height: 960px;
+    width: 100%;
+    padding: 40px;
+    position: relative;
+
+}
+.main-container3 h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+}
+
+.middle1{
+    background-image: url(assets/mid1.webp);
+    background-size: cover;
+    background-position:center; /*image position centering*/
+    height: 400px;
+    width: 30%;
+    float: left;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+
+.middle2{
+    background-image: url(assets/mid2.webp);
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+.middle3{
+    background-image: url(assets/mid3.webp);
+    background-size: cover;
+    background-position:center;
+    height: 396px;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.middle-a{
+    background-image: url(assets/mid4.webp);
+    background-size: cover;
+    background-position:center;
+    height: 328px;
+    width: 609px;
+    float: left;
+    margin-top: 20px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+   
+
+}
+.middle-b{
+    background-image: url(assets/mid5.webp);
+    background-size: cover;
+    background-position:center;
+    height: 328px;
+    width: 609px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 55px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.container3-middle a,
+.container3-middle2 a{
+    text-decoration: none;
+    color: white;
+    padding-left:25px;
+    padding-bottom: 30px;
+}
+.container3-middle span,
+.container3-middle2 span{
+    font-size: large;
+    font-weight: 700;
+    
+}
+
+.container3-bottom h4{
+    position: absolute;
+    top: 920px;
+    left: 44%;
+     color: #ff3535;
+     font-weight: 500;
+     cursor: pointer;
+}
+.container3-bottom h4:hover{
+    color: #c20013;
+}
+
+.main-container4 h1{
+    text-align: center;
+    margin-top: 30px;
+   
+   
+   
+}
+.main-container4{
+     padding: 20px;
+     width: 100%;
+     height: 550px;
+     background-color: white;
+     position: relative;
+
+}
+.conatiner4-1 img,
+.conatiner4-1{
+    width: 390px;
+    height: 220px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+   cursor: pointer;
+}
+.details{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.details span{
+    font-size: large;
+    font-weight: bold;
+}
+.main-container4 p:hover{
+    color: #ff3535;
+}
+.container4-middle h4{
+    color: red;
+}
+.container4-bottom h4{
+    position: absolute;
+    top: 500px;
+    left: 44%;
+    color:#ff3535;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container4-bottom h4:hover{
+    color: #c20013;
+}
+
+
+.main-container5{
+    background-image: url(assets/container4.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.main-container5 h1{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 64%;
+    font-size: 37px;
+    font-weight: bolder;
+    
+}
+.main-container5 p{
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 64%;  
+    font-size: 18px;
+}
+
+
+
+footer{
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position:center;
+    
+   
+    
+}
+footer a:hover{
+    color: red;
+}
+.footer1 a{
+    font-size: 16px;
+    color:  #999999;
+    text-decoration: none;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    margin-left: 68px;
+    margin-right: 68px;
+    border-bottom:0.5px solid gray; ;
+ 
+ 
+}
+.footer1-right img{
+    /* padding-left: 60px; */
+    margin-left: 50px;
+    
+}
+
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 68px;
+    margin-right: 68px;
+    margin-top: 10px;
+}
+.footer2 a{
+    font-size: 14px;
+    color: #999999;
+    text-decoration: none;
+
+}
+
+footer img{
+    filter: invert(50%);
+}
+.footer2-right a{
+    padding-left: 10px;
+}
+#nonlink{
+    cursor: default;
+}
+#nonlink:hover{
+    cursor: default;
+    color: #999999; ;
+}
